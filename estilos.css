@@ -8,7 +8,7 @@
                 /* Header */
 header{
     height: 600px;
-    background: url(/Portafolio/Image/Fondo\ Header.svg);
+    background: url(/Portafolio/difemace.github.io/Image/Fondo\ Header.svg);
     background-size: cover;
     background-position: center;
     display: block;
@@ -106,7 +106,7 @@ header{
 
 .Sect-Trabajos{
     display: block;
-    background-image: url(/Portafolio/Image/Fondo\ Body\ Trabajos.svg);
+    background-image: url(/Portafolio/difemace.github.io/Image/Fondo\ Body\ Trabajos.svg);
     background-size: cover;
 }
 
@@ -290,7 +290,7 @@ input{
                 /*Footer*/
 
 footer{
-    background: url(/Portafolio/Image/Fondo\ footer.svg);
+    background: url(/Portafolio/difemace.github.io/Image/Fondo\ footer.svg);
     background-size: cover;
     height: 200px;
 }
