@@ -8,7 +8,7 @@
                 /* Header */
 header{
     height: 600px;
-    background: url(/Portafolio/difemace.github.io/Image/Fondo\ Header.svg);
+    background: url(Image/Fondo\ Header.svg);
     background-size: cover;
     background-position: center;
     display: block;
@@ -28,7 +28,7 @@ header{
     color: #ffff;
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navbar .nav-links ul{
@@ -63,7 +63,7 @@ header{
                 /* Acerca de */
 .mi_foto{
     position: absolute;
-    left: 630px;
+    left: 550px;
     top: 525px;
 }
 
@@ -86,7 +86,7 @@ header{
 .acerca_de p{
     font-family: 'Open Sans';
     font-style:normal;
-    font-size: 20px;
+    font-size: 18px;
     text-align:center;
     color: #5A5A5A;
     position: relative;
@@ -106,7 +106,7 @@ header{
 
 .Sect-Trabajos{
     display: block;
-    background-image: url(/Portafolio/difemace.github.io/Image/Fondo\ Body\ Trabajos.svg);
+    background-image: url(Image/Fondo\ Body\ Trabajos.svg);
     background-size: cover;
 }
 
@@ -129,12 +129,12 @@ header{
 .Sect1-text{
     font-family: 'Open Sans';
     font-style:normal;
-    font-size: 18px;
+    font-size: 16px;
     color: #DD820D;
     display: flex;
     justify-content: space-around;
     padding: 40px;
-    margin: 0px 45px;
+    margin: 0px 20px;
 }
 
 .Sect1 img:hover{
@@ -150,11 +150,11 @@ header{
 .Sect2-text{
     font-family: 'Open Sans';
     font-style:normal;
-    font-size: 18px;
+    font-size: 16px;
     color: #DD820D;
     display: flex;
     justify-content: space-around;
-    margin: 0px 45px;
+    margin: 0px 20px;
     padding: 40px;
 }
 
@@ -171,11 +171,11 @@ header{
 .Sect3-text{
     font-family: 'Open Sans';
     font-style:normal;
-    font-size: 18px;
+    font-size: 16px;
     color: #DD820D;
     display: flex;
     justify-content: space-around;
-    margin: 0px 75px;
+    margin: 0px 60px;
     padding: 40px 0px  120px 0px;
 }
 
@@ -290,14 +290,14 @@ input{
                 /*Footer*/
 
 footer{
-    background: url(/Portafolio/difemace.github.io/Image/Fondo\ footer.svg);
+    background: url(Image/Fondo\ footer.svg);
     background-size: cover;
     height: 200px;
 }
 
 footer img{
     position: relative;
-    left: 450px;
+    left: 380px;
     top: 60px;
     margin: 10px;
 }
