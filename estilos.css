@@ -54,6 +54,11 @@ header{
     top: 220px;
 }
 
+.logo-responsive{
+    display: none;
+    visibility: hidden;
+}
+
 .nav-links ul li a:hover{
     color: #DD820D;
     border:#ffff ;
@@ -306,10 +311,12 @@ footer img{
 
 
 
-                /*Media Querys*/
+        /******************************Media Querys******************************/
 
 
-/* Pantallas medianas */
+                /* Pantallas medianas */
+
+
 @media screen and (max-width: 1024px) {
     header {
       height: 500px;
@@ -322,14 +329,18 @@ footer img{
     .navbar .nav-links ul li {
       margin: 30px;
     }
+    
+    .navbar a{
+        font-size: 16px;
+    }
   
     .semilogo {
-      top: 160px;
+        top: 160px;
     }
   
     .mi_foto {
-      left: 480px;
-      top: 425px;
+      left: 430px;
+      top: 420px;
     }
   
     .acerca_de h2 {
@@ -338,7 +349,7 @@ footer img{
     }
   
     .acerca_de p {
-      font-size: 16px;
+      font-size: 14px;
       top: 174px;
     }
   
@@ -350,135 +361,629 @@ footer img{
     .Sect1-text,
     .Sect2-text,
     .Sect3-text {
-      font-size: 16px;
-      margin: 0px 60px;
+      font-size: 14px;
+      margin: 0px 0px;
       padding: 40px;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 200px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.6);
+    transform:scale(1.6);
+}
+  
+    input,
+    textarea {
+      width: 450px;
+    }
+    
+    button{
+        left: 160px;
+    }
+  
+    footer img {
+      left: 360px;
+      top: 70px;
+        height: 40px;
+    }
+  }
+
+                /* Pantallas pequeñas */
+
+@media screen and (max-width: 768px) {
+    header {
+      height: 500px;
+    }
+  
+    .navbar {
+      padding: 40px 60px;
+    }
+  
+    .navbar .nav-links ul li {
+      margin: 30px 25px;
+    }
+    
+    .navbar a{
+        font-size: 16px;
+    }
+  
+    .semilogo {
+        top: 190px;
+        height: 120px;
+    }
+  
+    .mi_foto {
+      left: 300px;
+      top: 420px;
+    }
+  
+    .acerca_de h2 {
+      font-size: 26px;
+      top: 96px;
+    }
+  
+    .acerca_de p {
+      font-size: 14px;
+      top: 160px;
+        text-align: justify;
+    }
+  
+    .Sect-Trabajos h2 {
+      font-size: 26px;
+      padding: 40px;
+    }
+  
+    .Sect1-text,
+    .Sect2-text,
+    .Sect3-text {
+      font-size: 14px;
+      padding: 40px;
+        margin: 0px 85px;
+      justify-content: space-between;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 200px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+  
+    input,
+    textarea {
+      width: 450px;
+    }
+    
+    button{
+        left: 160px;
+    }
+  
+    footer img {
+      left: 220px;
+      top: 70px;
+      height: 40px;
+    }
+}
+  
+
+  
+                /* Pantallas muy pequeñas */
+    
+    
+@media screen and (min-width: 480px) {
+        
+    header {
+      height: 500px;
+    }
+  
+    .navbar {
+      padding: 50px 0px;
+    }
+  
+    .navbar .nav-links ul li {
+      margin: 0px 24px;    
+    }
+    
+    .navbar a{
+        font-size: 18px;
+    }
+    
+    .nav-links{
+        position: absolute;
+        left: 60px;
+        top: 90px;
+    }
+  
+    .semilogo {
+        top: 206px;
+        height: 110px;
+    }
+    
+    .logotipo img{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .logo-responsive{
+        display:block;
+        visibility: visible;
+        position: absolute;
+        left: 135px;
+    }
+  
+  
+    .mi_foto {
+      left: 165px;
+      top: 420px;
+    }
+    
+    .acerca_de{
+      margin-bottom: 250px;
+    }
+  
+    .acerca_de h2 {
+      font-size: 20px;
+      top: 96px;
+    }
+  
+    .acerca_de p {
+      font-size: 13px;
+      top: 140px;
+      text-align: justify;
+      margin: 0px 60px 0px 60px;
+    }
+  
+    .Sect-Trabajos h2 {
+      font-size: 20px;
+      padding: 40px;
+    }
+  
+    .Sect1-text,
+    .Sect2-text,
+    .Sect3-text {
+      font-size: 12px;
+      padding: 30px 20px;
+      justify-content: space-between;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 150px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
     }
   
     input,
     textarea {
       width: 450px;
     }
+    
+    button{
+        left: 150px;
+    }
   
     footer img {
-      left: 400px;
-      top: 40px;
+      left: 90px;
+      top: 70px;
+      height: 40px;
     }
-  }
+}
 
- /* Pantallas pequeñas */
-@media screen and (max-width: 768px) {
+
+                /* Pantallas muy pequeñas */
+    
+    
+@media screen and (max-width: 658px) {
     header {
-      height: 400px;
+      height: 500px;
     }
   
     .navbar {
-      padding: 40px 50px;
+      padding: 50px 25px;
     }
   
     .navbar .nav-links ul li {
-      margin: 20px;
+      margin: 0px 20px;
+    }
+    
+    .navbar a{
+        font-size: 16px;
     }
   
     .semilogo {
-      top: 120px;
+        top: 190px;
+        height: 120px;
     }
   
     .mi_foto {
-      left: 300px;
-      top: 375px;
+      left: 245px;
+      top: 420px;
+    }
+    
+    .acerca_de{
+      margin-bottom: 250px;
     }
   
     .acerca_de h2 {
-      font-size: 24px;
-      top: 80px;
+      font-size: 20px;
+      top: 96px;
     }
   
     .acerca_de p {
-      font-size: 16px;
-      top: 160px;
+      font-size: 14px;
+      top: 140px;
+      text-align: justify;
+      margin: 0px 100px 0px 100px;
     }
   
     .Sect-Trabajos h2 {
-      font-size: 24px;
-      padding: 30px;
+      font-size: 20px;
+      padding: 40px;
     }
   
     .Sect1-text,
     .Sect2-text,
     .Sect3-text {
-      font-size: 16px;
-      margin: 0px 30px;
-      padding: 30px;
+      font-size: 14px;
+      padding: 40px;
+      margin: 0px 60px;
+      justify-content: space-between;
     }
-  
-    .form {
-      flex-direction: column;
-      align-items: center;
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 190px;
     }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
   
     input,
     textarea {
-      width: 300px;
+      width: 450px;
     }
-  
-    button {
-      left: 0;
-      right: 0;
-      margin: 30px auto;
+    
+    button{
+        left: 150px;
     }
   
     footer img {
-      left: 300px;
-      top: 20px;
+      left: 70px;
+      top: 50px;
     }
-  }
+}
+
+
+                /* Pantallas muy pequeñas */
+    
+    
+@media screen and (max-width: 608px) {
+    header {
+      height: 500px;
+    }
   
-  /* Pantallas muy pequeñas */
-  @media screen and (max-width: 480px) {
     .navbar {
-      padding: 20px;
+      padding: 50px 15px;
     }
   
     .navbar .nav-links ul li {
-      margin: 10px;
+      margin: 0px 15px;
+    }
+    
+    .navbar a{
+        font-size: 16px;
     }
   
+    .semilogo {
+        top: 200px;
+        height: 100px;
+    }
+    
+    .logotipo img{
+        height: 30px;
+    }
+  
+  
     .mi_foto {
-      left: 100px;
-      top: 300px;
+      left: 220px;
+      top: 420px;
+    }
+    
+    .acerca_de{
+      margin-bottom: 250px;
     }
   
     .acerca_de h2 {
       font-size: 20px;
-      top: 60px;
+      top: 96px;
     }
   
     .acerca_de p {
-      font-size: 14px;
-      top: 130px;
+      font-size: 13px;
+      top: 140px;
+      text-align: justify;
+      margin: 0px 100px 0px 100px;
     }
   
     .Sect-Trabajos h2 {
       font-size: 20px;
-      padding: 20px;
+      padding: 40px;
     }
   
     .Sect1-text,
     .Sect2-text,
     .Sect3-text {
       font-size: 14px;
-      margin: 0px 20px;
-      padding: 20px;
+      padding: 40px;
+      margin: 0px 30px;
+      justify-content: space-between;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 190px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+  
+    input,
+    textarea {
+      width: 450px;
+    }
+    
+    button{
+        left: 150px;
+    }
+  
+    footer img {
+      left: 40px;
+      top: 50px;
+    }
+}
+
+
+                /* Pantallas muy pequeñas */
+    
+    
+@media screen and (max-width: 608px) {
+    header {
+      height: 500px;
+    }
+  
+    .navbar {
+      padding: 50px 0px;
+    }
+  
+    .navbar .nav-links ul li {
+      margin: 0px 24px;    
+    }
+    
+    .navbar a{
+        font-size: 18px;
+    }
+    
+    .nav-links{
+        position: absolute;
+        left: 60px;
+        top: 90px;
+    }
+  
+    .semilogo {
+        top: 206px;
+        height: 110px;
+    }
+    
+    .logotipo img{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .logo-responsive{
+        display:block;
+        visibility: visible;
+        position: absolute;
+        left: 135px;
+    }
+  
+  
+    .mi_foto {
+      left: 165px;
+      top: 420px;
+    }
+    
+    .acerca_de{
+      margin-bottom: 250px;
+    }
+  
+    .acerca_de h2 {
+      font-size: 20px;
+      top: 96px;
+    }
+  
+    .acerca_de p {
+      font-size: 13px;
+      top: 140px;
+      text-align: justify;
+      margin: 0px 60px 0px 60px;
+    }
+  
+    .Sect-Trabajos h2 {
+      font-size: 20px;
+      padding: 40px;
+    }
+  
+    .Sect1-text,
+    .Sect2-text,
+    .Sect3-text {
+      font-size: 12px;
+      padding: 30px 20px;
+      justify-content: space-between;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 150px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
     }
   
     input,
     textarea {
-      width: 250px;
+      width: 450px;
+    }
+    
+    button{
+        left: 150px;
     }
   
     footer img {
-      left: 200px;
-      top: 0px;
+      left: 90px;
+      top: 70px;
+      height: 40px;
     }
-  }
+}
+
+
+               /* Pantallas muy pequeñas */
+    
+
+
+@media screen and (max-width: 411px) {
+    header {
+      height: 500px;
+    }
+  
+    .navbar {
+      padding: 50px 0px;
+    }
+  
+    .navbar .nav-links ul li {
+      margin: 0px 24px;    
+    }
+    
+    .navbar a{
+        font-size: 18px;
+    }
+    
+    .nav-links{
+        position: absolute;
+        left: 60px;
+        top: 90px;
+    }
+  
+    .semilogo {
+        top: 206px;
+        height: 110px;
+    }
+    
+    .logotipo img{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .logo-responsive{
+        display:block;
+        visibility: visible;
+        position: absolute;
+        left: 135px;
+    }
+  
+  
+    .mi_foto {
+      left: 165px;
+      top: 420px;
+    }
+    
+    .acerca_de{
+      margin-bottom: 250px;
+    }
+  
+    .acerca_de h2 {
+      font-size: 20px;
+      top: 96px;
+    }
+  
+    .acerca_de p {
+      font-size: 13px;
+      top: 140px;
+      text-align: justify;
+      margin: 0px 60px 0px 60px;
+    }
+  
+    .Sect-Trabajos h2 {
+      font-size: 20px;
+      padding: 40px;
+    }
+  
+    .Sect1-text,
+    .Sect2-text,
+    .Sect3-text {
+      font-size: 12px;
+      padding: 30px 20px;
+      justify-content: space-between;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 150px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    }
+  
+    input,
+    textarea {
+      width: 450px;
+    }
+    
+    button{
+        left: 150px;
+    }
+  
+    footer img {
+      left: 90px;
+      top: 70px;
+      height: 40px;
+    }
+}
