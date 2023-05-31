@@ -767,7 +767,8 @@ footer img{
 
                /* Pantallas muy pequeñas */
     
-@media screen and (max-width: 411px) {
+
+@media screen and (max-width: 460px) {
     header {
       height: 500px;
     }
@@ -786,13 +787,13 @@ footer img{
     
     .nav-links{
         position: absolute;
-        left: 60px;
+        left: 40px;
         top: 90px;
     }
   
     .semilogo {
         top: 206px;
-        height: 9px;
+        height: 100px;
     }
     
     .logotipo img{
@@ -804,12 +805,12 @@ footer img{
         display:block;
         visibility: visible;
         position: absolute;
-        left: 135px;
+        left: 120px;
     }
   
   
     .mi_foto {
-      left: 165px;
+      left: 150px;
       top: 420px;
     }
     
@@ -838,14 +839,14 @@ footer img{
     .Sect2-text,
     .Sect3-text {
       font-size: 12px;
-      padding: 30px 20px;
+      padding: 30px 0px;
       justify-content: space-between;
     }
     
     .Sect1 img,
     .Sect2 img,
     .Sect3 img {
-        width: 150px;
+        width: 130px;
     }
     
     .Sect1 img:hover,
@@ -857,17 +858,20 @@ footer img{
   
     input,
     textarea {
-      width: 450px;
+      width: 300px;
     }
     
     button{
-        left: 150px;
+        left: 85px;
+    }
+    
+    .contacto h2{
+        font-size: 20px;
     }
   
     footer img {
-      left: 90px;
+      left: 80px;
       top: 70px;
       height: 40px;
     }
 }
-
