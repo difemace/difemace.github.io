@@ -92,7 +92,7 @@ header{
     font-family: 'Open Sans';
     font-style:normal;
     font-size: 18px;
-    text-align:center;
+    text-align:justify;
     color: #5A5A5A;
     position: relative;
     display: block;
@@ -302,9 +302,10 @@ footer{
 
 footer img{
     position: relative;
-    left: 380px;
-    top: 60px;
+    left: 455px;
+    top: 70px;
     margin: 10px;
+    height: 50px;
 }
 
                 /*Footer*/
@@ -314,7 +315,7 @@ footer img{
         /******************************Media Querys******************************/
 
 
-                /* Pantallas medianas */
+                /* Pantallas 1024px */
 
 
 @media screen and (max-width: 1024px) {
@@ -389,25 +390,24 @@ footer img{
     }
   
     footer img {
-      left: 360px;
-      top: 70px;
-        height: 40px;
+      left: 310px;
+      top: 50px;
     }
   }
 
-                /* Pantallas pequeñas */
+                /* Pantallas 840px */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 840px) {
     header {
       height: 500px;
     }
   
     .navbar {
-      padding: 40px 60px;
+      padding: 40px 70px;
     }
   
     .navbar .nav-links ul li {
-      margin: 30px 25px;
+      margin: 30px;
     }
     
     .navbar a{
@@ -420,7 +420,7 @@ footer img{
     }
   
     .mi_foto {
-      left: 300px;
+      left: 335px;
       top: 420px;
     }
   
@@ -432,7 +432,6 @@ footer img{
     .acerca_de p {
       font-size: 14px;
       top: 160px;
-        text-align: justify;
     }
   
     .Sect-Trabajos h2 {
@@ -458,119 +457,9 @@ footer img{
     .Sect1 img:hover,
     .Sect2 img:hover,
     .Sect3 img:hover {
-    -webkit-transform:scale(1.3);
-    transform:scale(1.3);
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
 }
-  
-    input,
-    textarea {
-      width: 450px;
-    }
-    
-    button{
-        left: 160px;
-    }
-  
-    footer img {
-      left: 220px;
-      top: 70px;
-      height: 40px;
-    }
-}
-  
-
-  
-                /* Pantallas muy pequeñas */
-    
-    
-@media screen and (min-width: 480px) {
-        
-    header {
-      height: 500px;
-    }
-  
-    .navbar {
-      padding: 50px 0px;
-    }
-  
-    .navbar .nav-links ul li {
-      margin: 0px 24px;    
-    }
-    
-    .navbar a{
-        font-size: 18px;
-    }
-    
-    .nav-links{
-        position: absolute;
-        left: 60px;
-        top: 90px;
-    }
-  
-    .semilogo {
-        top: 206px;
-        height: 110px;
-    }
-    
-    .logotipo img{
-        display: none;
-        visibility: hidden;
-    }
-    
-    .logo-responsive{
-        display:block;
-        visibility: visible;
-        position: absolute;
-        left: 135px;
-    }
-  
-  
-    .mi_foto {
-      left: 165px;
-      top: 420px;
-    }
-    
-    .acerca_de{
-      margin-bottom: 250px;
-    }
-  
-    .acerca_de h2 {
-      font-size: 20px;
-      top: 96px;
-    }
-  
-    .acerca_de p {
-      font-size: 13px;
-      top: 140px;
-      text-align: justify;
-      margin: 0px 60px 0px 60px;
-    }
-  
-    .Sect-Trabajos h2 {
-      font-size: 20px;
-      padding: 40px;
-    }
-  
-    .Sect1-text,
-    .Sect2-text,
-    .Sect3-text {
-      font-size: 12px;
-      padding: 30px 20px;
-      justify-content: space-between;
-    }
-    
-    .Sect1 img,
-    .Sect2 img,
-    .Sect3 img {
-        width: 150px;
-    }
-    
-    .Sect1 img:hover,
-    .Sect2 img:hover,
-    .Sect3 img:hover {
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
-    }
   
     input,
     textarea {
@@ -582,14 +471,99 @@ footer img{
     }
   
     footer img {
-      left: 90px;
+      left: 230px;
       top: 70px;
-      height: 40px;
+    }
+}
+  
+
+  
+                /* Pantallas 758px */
+    
+    
+@media screen and (max-width: 758px) {
+        
+    header {
+      height: 500px;
+    }
+  
+    .navbar {
+      padding: 40px 50px;
+    }
+  
+    .navbar .nav-links ul li {
+      margin: 20px;
+    }
+    
+    .navbar a{
+        font-size: 16px;
+    }
+  
+    .semilogo {
+        top: 190px;
+        height: 120px;
+    }
+  
+    .mi_foto {
+      left: 295px;
+      top: 420px;
+    }
+  
+    .acerca_de h2 {
+      font-size: 20px;
+      top: 96px;
+    }
+  
+    .acerca_de p {
+      font-size: 14px;
+      top: 160px;
+      text-align: justify;    
+    }
+  
+    .Sect-Trabajos h2 {
+      font-size: 20px;
+      padding: 40px;
+    }
+  
+    .Sect1-text,
+    .Sect2-text,
+    .Sect3-text {
+      font-size: 14px;
+      padding: 40px;
+      margin: 0px 60px;
+      justify-content: space-between;
+    }
+    
+    .Sect1 img,
+    .Sect2 img,
+    .Sect3 img {
+        width: 200px;
+    }
+    
+    .Sect1 img:hover,
+    .Sect2 img:hover,
+    .Sect3 img:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+  
+    input,
+    textarea {
+      width: 450px;
+    }
+    
+    button{
+        left: 150px;
+    }
+  
+    footer img {
+      left: 180px;
+      top: 70px;
     }
 }
 
 
-                /* Pantallas muy pequeñas */
+                /* Pantallas 658px */
     
     
 @media screen and (max-width: 658px) {
@@ -672,107 +646,14 @@ footer img{
     }
   
     footer img {
-      left: 70px;
-      top: 50px;
+      left: 140px;
+      top: 70px;
+      height: 50px;
     }
-}
+    
 
 
-                /* Pantallas muy pequeñas */
-    
-    
-@media screen and (max-width: 608px) {
-    header {
-      height: 500px;
-    }
-  
-    .navbar {
-      padding: 50px 15px;
-    }
-  
-    .navbar .nav-links ul li {
-      margin: 0px 15px;
-    }
-    
-    .navbar a{
-        font-size: 16px;
-    }
-  
-    .semilogo {
-        top: 200px;
-        height: 100px;
-    }
-    
-    .logotipo img{
-        height: 30px;
-    }
-  
-  
-    .mi_foto {
-      left: 220px;
-      top: 420px;
-    }
-    
-    .acerca_de{
-      margin-bottom: 250px;
-    }
-  
-    .acerca_de h2 {
-      font-size: 20px;
-      top: 96px;
-    }
-  
-    .acerca_de p {
-      font-size: 13px;
-      top: 140px;
-      text-align: justify;
-      margin: 0px 100px 0px 100px;
-    }
-  
-    .Sect-Trabajos h2 {
-      font-size: 20px;
-      padding: 40px;
-    }
-  
-    .Sect1-text,
-    .Sect2-text,
-    .Sect3-text {
-      font-size: 14px;
-      padding: 40px;
-      margin: 0px 30px;
-      justify-content: space-between;
-    }
-    
-    .Sect1 img,
-    .Sect2 img,
-    .Sect3 img {
-        width: 190px;
-    }
-    
-    .Sect1 img:hover,
-    .Sect2 img:hover,
-    .Sect3 img:hover {
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
-}
-  
-    input,
-    textarea {
-      width: 450px;
-    }
-    
-    button{
-        left: 150px;
-    }
-  
-    footer img {
-      left: 40px;
-      top: 50px;
-    }
-}
-
-
-                /* Pantallas muy pequeñas */
+                /* Pantallas 608px */
     
     
 @media screen and (max-width: 608px) {
@@ -794,7 +675,7 @@ footer img{
     
     .nav-links{
         position: absolute;
-        left: 60px;
+        left: 120px;
         top: 90px;
     }
   
@@ -812,12 +693,12 @@ footer img{
         display:block;
         visibility: visible;
         position: absolute;
-        left: 135px;
+        left: 200px;
     }
   
   
     .mi_foto {
-      left: 165px;
+      left: 220px;
       top: 420px;
     }
     
@@ -834,7 +715,7 @@ footer img{
       font-size: 13px;
       top: 140px;
       text-align: justify;
-      margin: 0px 60px 0px 60px;
+      margin: 0px 80px 0px 80px;
     }
   
     .Sect-Trabajos h2 {
@@ -865,15 +746,19 @@ footer img{
   
     input,
     textarea {
-      width: 450px;
+      width: 400px;
     }
     
     button{
-        left: 150px;
+        left: 130px;
+    }
+    
+    .contacto h2{
+        font-size: 20px;
     }
   
     footer img {
-      left: 90px;
+      left: 145px;
       top: 70px;
       height: 40px;
     }
@@ -882,8 +767,6 @@ footer img{
 
                /* Pantallas muy pequeñas */
     
-
-
 @media screen and (max-width: 411px) {
     header {
       height: 500px;
@@ -909,7 +792,7 @@ footer img{
   
     .semilogo {
         top: 206px;
-        height: 110px;
+        height: 9px;
     }
     
     .logotipo img{
@@ -987,3 +870,4 @@ footer img{
       height: 40px;
     }
 }
+
